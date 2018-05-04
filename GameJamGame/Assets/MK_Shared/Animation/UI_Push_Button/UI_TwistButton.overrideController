@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: UI_TwistButton
+  m_Controller: {fileID: 9100000, guid: f2d7d8f464e4bf0478a4e49b6e944b5b, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a4a40c31a48b4304d885cafefeeec26c, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 9e150533ec53653438419356c0788398, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 77d22571365f68e43836cd6f942b1aaa, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 77d22571365f68e43836cd6f942b1aaa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: a503e09f503fdcb45ba07592592d5bd8, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1ca10e460154e584fb9fbddfb53b4b45, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 038d598772c4b094a9d8a8abd5374c37, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: a527bd05ba2ff584d9a335bb60d5db1c, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 96b1ecbd484c6674b891d581ec6cfe53, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: d5099e4c2f255d145af1ae91ce05765b, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 553885d312231bb41b0f061bb7adfcb7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 553885d312231bb41b0f061bb7adfcb7, type: 2}

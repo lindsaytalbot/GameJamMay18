@@ -1,0 +1,31 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
+    defaultConfig {
+        minSdkVersion 16
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+
+task deploy(type: Copy, dependsOn: 'assembleRelease') {
+    from 'build/outputs/aar/utnotifications-release.aar'
+    into '../../../../../Plugins/Android/'
+    rename {
+        fileName -> 'utnotifications.aar'
+    }
+}
+
+dependencies {
+    provided 'me.leolin:ShortcutBadger:1.1.21@aar'
+    provided 'com.android.support:support-v4:+'
+    provided 'com.google.android.gms:play-services-gcm:11.8.0'
+    provided fileTree(dir: 'libs-provided', include: ['*.jar'])
+}

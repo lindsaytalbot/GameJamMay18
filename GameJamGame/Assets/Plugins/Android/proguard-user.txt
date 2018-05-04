@@ -1,0 +1,5 @@
+
+# UTNotifications Proguard Config (please do not edit)
+-keep public class universal.tools.notifications.* { *; }
+-dontwarn com.amazon.device.messaging.*
+-dontwarn universal.tools.notifications.AdmIntentService
